@@ -109,7 +109,7 @@ header .profile-image:hover {
 section {
   margin: 30px;
   padding: 20px 40px 40px;
-  max-width: 500px;
+  max-width: 800px;
   text-align: left;
   background: rgb(42, 57, 59);
   border-bottom: 4px solid #88a3a5;
@@ -169,13 +169,13 @@ footer ul li {
 
 .header2 {
   text-align: center;
-  background: url("images/milky-way.jpg") no-repeat top center;
+  background: url("images/map.jpg") no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
 
-.experience-tag {
+.container {
   background-color: rgb(42, 57, 59);
   color: rgb(189, 171, 171);
   padding: 14px;
@@ -186,6 +186,15 @@ footer ul li {
   margin: 10px auto;
   margin-top: 150px;
   letter-spacing: 1.2px;
+}
+
+.header3 {
+  text-align: center;
+  background: url("images/code.jpg") no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 60px;
+  letter-spacing: 1.5px;
 }
 
 a.social {
@@ -212,8 +221,12 @@ a.social:hover {
   clear: both;
 }
 
-lh {
+.list-title {
   font-family: "Lobster", cursive;
+}
+
+.list-align {
+  text-align: left;
 }
 
 .email {
@@ -227,6 +240,7 @@ lh {
 
 .email:hover {
   transform: scale(1) rotate(360deg);
+  color: rgb(126, 58, 58);
 }
 .octocat {
   opacity: 0.65;
