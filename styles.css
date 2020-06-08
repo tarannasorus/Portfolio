@@ -17,14 +17,14 @@ body {
   padding: 0;
   text-align: center;
   font-family: "Baloo Chettan 2", sans-serif;
-  color: rgb(189, 171, 171);
+  color: rgb(131, 167, 159);
   background: #aaafaf;
 }
 /* Link Styles */
 
 a {
   text-decoration: none;
-  color: rgb(189, 171, 171);
+  color: rgb(131, 167, 159);
 }
 a:hover {
   transition: 1s;
@@ -52,7 +52,7 @@ nav {
 .nav .name {
   display: block;
   margin-right: auto;
-  color: rgb(189, 171, 171);
+  color: rgb(131, 167, 159);
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -82,7 +82,7 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid rgb(189, 171, 171);
+  border: 3px solid rgb(131, 167, 159);
   transition: all 0.7s;
 }
 header .profile-image:hover {
@@ -90,11 +90,11 @@ header .profile-image:hover {
 }
 .tag {
   background-color: rgb(42, 57, 59);
-  color: rgb(189, 171, 171);
+  color: rgb(131, 167, 159);
   padding: 10px;
   border-radius: 5px;
   display: table;
-  border: 2px solid rgb(189, 171, 171);
+  border: 2px solid rgb(131, 167, 159);
   font-family: "Lobster", cursive;
   margin: 10px auto;
 }
@@ -103,8 +103,8 @@ header .profile-image:hover {
 }
 .location {
   background-color: rgb(42, 57, 59);
-  color: rgb(189, 171, 171);
-  border: 2px solid rgb(189, 171, 171);
+  color: rgb(131, 167, 159);
+  border: 2px solid rgb(131, 167, 159);
   margin: 10px auto;
 }
 section {
@@ -118,7 +118,7 @@ section {
   transition: all 0.5s;
 }
 section:hover {
-  border-color: rgb(126, 58, 58);
+  border-color: rgb(207, 175, 148);
   transition: 1s;
 }
 
@@ -130,14 +130,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: rgb(189, 171, 171);
+  background: rgb(207, 175, 148);
   color: rgb(53, 71, 73);
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:hover {
-  color: rgb(126, 58, 58);
+  color: rgb(182, 54, 54);
   transition: 1s;
 }
 
@@ -156,6 +156,7 @@ footer {
 footer .copyright {
   top: -8px;
   font-size: 0.75em;
+  color: rgb(68, 89, 92);
 }
 
 footer ul {
@@ -170,7 +171,7 @@ footer ul li {
 
 .header2 {
   text-align: center;
-  background: url("images/map.jpg") no-repeat top center;
+  background: url("images/forest.jpg") no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -178,11 +179,11 @@ footer ul li {
 
 .container {
   background-color: rgb(42, 57, 59);
-  color: rgb(189, 171, 171);
+  color: rgb(131, 167, 159);
   padding: 14px;
   border-radius: 5px;
   display: table;
-  border: 2px solid rgb(189, 171, 171);
+  border: 2px solid rgb(131, 167, 159);
   font-family: "Lobster", cursive;
   margin: 10px auto;
   margin-top: 150px;
@@ -191,7 +192,7 @@ footer ul li {
 
 .header3 {
   text-align: center;
-  background: url("images/code.jpg") no-repeat top center;
+  background: url("images/stars.jpg") no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -205,7 +206,7 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: 0.4;
+  opacity: 0.6;
   transition: all 0.5s;
 }
 
@@ -233,7 +234,7 @@ a.social:hover {
 .email {
   border-radius: 6px;
   display: inline-block;
-  background: rgb(189, 171, 171);
+  background: rgb(207, 175, 148);
   color: rgb(53, 71, 73);
   padding: 5px 10px;
   margin: 2px;
@@ -241,7 +242,7 @@ a.social:hover {
 
 .email:hover {
   transform: scale(1) rotate(360deg);
-  color: rgb(126, 58, 58);
+  color: rgb(182, 54, 54);
 }
 .octocat {
   opacity: 0.65;
